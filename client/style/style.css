@@ -1,0 +1,74 @@
+#app {
+	display: flex;
+	justify-content: center;
+}
+
+.header {
+	padding-left: 12px;
+}
+
+.link {
+	padding-left: 1em;
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+}
+
+.card {	
+	display: flex;
+	justify-content: center;
+}
+
+.dayCard {
+	font-size: 19px;
+	padding-left: 150px; 
+}
+
+.dayWatts {
+	font-size: 19px;
+	float: right;
+	padding-right: 200px;
+	font-weight: bold;
+}
+
+.day {
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+}
+
+.cardHeader {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+}
+
+.weekdayCardHeader {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.cardContainer {
+	border: 1px black solid;
+  border-radius: 10px;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+}
+
+.dayCardContainer {
+	border: 1px black solid;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+}
